@@ -47,6 +47,12 @@ typst compile 01-basics.typ && typst compile 02-lists-and-links.typ && typst com
 | `09-idd.typ` | IDD | Full IDD document example using `09-idd-template.typ`. |
 | `10-newsletter-template.typ` | **Template** | Professional newsletter layout (do not compile). |
 | `10-newsletter.typ` | Newsletter | Example of a multi-column professional newsletter. |
+| `11-cheatsheet-template.typ` | **Template** | High-density cheatsheet layout (do not compile). |
+| `11-git-cheatsheet.typ` | Cheatsheet | Single-page professional Git reference. |
+| `12-performance-report.typ` | Report | **Data-driven** report using external JSON data. |
+| `13-academic-paper.typ` | Academic | Formal paper with citations, math, and abstract. |
+| `14-magazine-template.typ` | **Template** | Long-form magazine template with charts & cover. |
+| `14-ai-monthly.typ` | Magazine | 7-page professional AI magazine with custom charts. |
 
 ## Key Conventions
 

@@ -1,0 +1,22 @@
+{
+  "report_date": "2026-02-05",
+  "environment": "Production (US-East-1)",
+  "version": "2.4.0-stable",
+  "summary": {
+    "uptime": 99.98,
+    "total_requests": 1450280,
+    "avg_latency": 48.2,
+    "error_rate": 0.04
+  },
+  "endpoints": [
+    { "path": "/v2/widgets", "method": "GET", "avg": 42.5, "p95": 88.2, "status": "Healthy" },
+    { "path": "/v2/widgets", "method": "POST", "avg": 125.1, "p95": 210.5, "status": "Healthy" },
+    { "path": "/v2/widgets/:id", "method": "GET", "avg": 15.2, "p95": 28.4, "status": "Optimal" },
+    { "path": "/v2/widgets/:id", "method": "PATCH", "avg": 110.4, "p95": 195.0, "status": "Healthy" },
+    { "path": "/v2/widgets/:id", "method": "DELETE", "avg": 450.8, "p95": 890.2, "status": "Degraded" }
+  ],
+  "incidents": [
+    { "id": "INC-882", "time": "2026-02-01 14:02", "duration": "12m", "impact": "High Latency" },
+    { "id": "INC-885", "time": "2026-02-04 09:15", "duration": "4m", "impact": "DNS Resolution" }
+  ]
+}
